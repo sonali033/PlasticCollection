@@ -1,0 +1,315 @@
+a{
+	color: whitesmoke;
+	text-decoration: none;
+	font-size: 35px;
+	font-family: times new roman bold;
+}
+header {
+  background-color:#2E8B57;
+  padding: 30px;
+  text-align: center;
+  font-size: 35px;
+  color: white;
+}
+a:hover{
+	color: green;
+	background: white;
+	text-decoration: none;
+}
+#show_bg_2 {
+    background-image:
+    linear-gradient(to bottom, rgba(255, 255, 255, 0.1), rgba(0, 119, 145,0.65)),
+    url('Background/about_us.jpg');
+    background-size: 100% 100%;
+    color: white;
+	  background-color:  #007791;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    float: left;
+}
+
+.second_page{
+  background-color: #007791;
+  float:left;
+}
+	
+.size{
+	font-size: 90px;
+	color : white;
+	font-family: New Century Schoolbook, TeX Gyre Schola, serif;
+	margin-left: 150px;
+	font-weight: bold;
+}
+.sizee{
+	font-size:40px;
+	margin-left: 150px;
+	color:white;
+	margin-right: 400px;
+}
+.raju {
+  float: left;
+  min-height: 270px;
+  width: 330px;
+  background-color: skyblue;
+  display: inline-block;
+  margin-left: 50px;
+  margin-top: 50px;
+  line-height: 2em;
+  margin-bottom: 100px;
+  border-radius: 10px;
+  
+}
+.komal {
+  float: left;
+  min-height: 270px;
+  width: 330px;
+  background-color: white;
+  display: inline-block;
+  margin-left: 250px;
+  margin-top: 50px;
+  line-height: 2em;
+  margin-bottom: 100px;
+  border-radius: 10px;
+}
+.sonu{
+  min-height: 270px;
+  width: 330px;
+  background-color: white;
+  display: inline-block;
+  margin-left: 50px;
+  margin-top: 50px;
+  line-height: 2em;
+  margin-bottom: 100px;
+  border-radius: 10px;
+
+}
+.ambitions{
+  margin-left: 150px;
+  margin-right: 100px;
+  font-family: New Century Schoolbook, TeX Gyre Schola, serif;
+  float: left;
+}
+.headline{
+  font-size : 40px;
+  color:skyblue;
+  float: left;
+}
+.content{
+  color:white;
+  font-size:25px;
+  float:left;
+
+}
+.sonali{
+  margin-left: 600px;
+
+    
+}
+.ambition{
+  margin-left: 500px;
+  margin-right: 100px;
+  font-family: New Century Schoolbook, TeX Gyre Schola, serif;
+  float: left;
+}
+.headlines{
+  font-size : 40px;
+  color:skyblue;
+  float: left;
+}
+.contents{
+  color:white;
+  font-size:25px;
+  float:left;
+
+}
+.main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.section {
+  width: 50%;
+  height: 100%;
+}
+
+video {
+  width: 100%;
+  height: 56.25%;
+  margin-top: 21.875%;
+}
+.parasize{
+  color:white;
+  font-size: 25px;
+  margin-left: 150px;
+  margin-right: 600px;
+  font-family: New Century Schoolbook, TeX Gyre Schola, serif;
+  float: left;
+  }
+  
+.paratitle{
+  color:skyblue;
+  font-size: 40px;
+  margin-left: 150px;
+  font-family: New Century Schoolbook, TeX Gyre Schola, serif;
+}
+.subtitle{
+  color:skyblue;
+  font-size: 30px;
+  margin-left: 150px;
+  font-family: New Century Schoolbook, TeX Gyre Schola, serif;
+}
+img{
+  float: left;
+}
+.mission{
+	background-color: #f2f3f4;
+}
+.mission_style{
+	margin-top: 150px;
+	margin: 0 0 1em;
+	font-family: New Century Schoolbook, TeX Gyre Schola, serif;
+	font-size: 50px;
+	text-align: center;
+	color:skyblue;
+}
+.sub_mission{
+	font-family: New Century Schoolbook, TeX Gyre Schola, serif;
+	font-size: 25px;
+	text-align: center;
+	margin-left: 150px;
+	margin-right: 150px;
+
+}
+footer {
+  background-color:black;
+  padding: 30px;
+  text-align: center;
+  font-size: 25px;
+  color:white;
+  }
+
+.fa {
+  padding: 20px;
+  font-size: 20px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+.fa-google {
+  background: #dd4b39;
+  color: white;
+}
+
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
+
+.fa-youtube {
+  background: #bb0000;
+  color: white;
+}
+
+.fa-instagram {
+  background: #125688;
+  color: white;
+}
+
+.fa-pinterest {
+  background: #cb2027;
+  color: white;
+}
+
+.fa-snapchat-ghost {
+  background: #fffc00;
+  color: white;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+.fa-skype {
+  background: #00aff0;
+  color: white;
+}
+
+.fa-android {
+  background: #a4c639;
+  color: white;
+}
+
+.fa-dribbble {
+  background: #ea4c89;
+  color: white;
+}
+
+.fa-vimeo {
+  background: #45bbff;
+  color: white;
+}
+
+.fa-tumblr {
+  background: #2c4762;
+  color: white;
+}
+
+.fa-vine {
+  background: #00b489;
+  color: white;
+}
+
+.fa-foursquare {
+  background: #45bbff;
+  color: white;
+}
+
+.fa-stumbleupon {
+  background: #eb4924;
+  color: white;
+}
+
+.fa-flickr {
+  background: #f40083;
+  color: white;
+}
+
+.fa-yahoo {
+  background: #430297;
+  color: white;
+}
+
+.fa-soundcloud {
+  background: #ff5500;
+  color: white;
+}
+
+.fa-reddit {
+  background: #ff5700;
+  color: white;
+}
+
+.fa-rss {
+  background: #ff6600;
+  color: white;
+}
+#left{
+  	text-align: left;
+  	margin-right: 500px;
+  	color:white;
+  	float: left;
+  }

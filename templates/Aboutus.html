@@ -1,0 +1,71 @@
+{% extends "layout.html" %}
+
+ {% block body %}
+      <link rel="stylesheet"
+              type = "text/css"
+              href="{{ url_for('static',filename='css/aboutus.css') }}"
+              />
+              <div id= "show_bg_2"> 
+      <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+          
+      <h1><span class = "size"> About us </span> </h1>
+      <br>
+        <h2><div class = "sizee">We have developed a simple system to reward people collecting plastic waste... </div></h2>
+      </div>
+          <div class = "second_page">
+         <p class = " ambitions headline"><br>Our ambitious goal...</p> <p class ="ambitions content"> <iframe style="float: right; width: 540px; height: 400px;"src="{{ url_for('static',filename='videos/About_us_1.mp4') }}" width="640" height="480" allowfullscreen="allowfullscreen" webkitallowfullscreen="webkitallowfullscreen" mozallowfullscreen="   mozallowfullscreen" allow="autoplay *"></iframe><br>We’re not asking for much … just a wholesale reduction of Plastic Waste and Poverty at the     same time.<br><br>
+          Our goal is simple … to have one billion people collecting plastic, and in turn converting their efforts into money to improve the quality of life of some of our poorest people, especially in areas where poverty and pollution from plastic waste are particularly high.</p>
+          <br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+
+          <p class = "ambitions headline sonali">
+          For a clean world ..</p> 
+          <p class = "ambitions content"> <img src="{{ url_for('static',filename='images/clean-world.jpg') }}" alt="Pineapple" style="padding : 15px;width:400px;height:400px;margin-right:15px">As the name implies, Plastic Collector unites people to clean up the environment and receive bonuses for collected plastic<br><br>
+
+          Plastic waste has a real value, which can drive recycling ecosystems around the world and prevent plastic from finding its way into land fill and our oceans. At the same time Plastic Collectors helps people in poverty to build a better future for themselves and their community.</p>
+    </div>
+    <div class = "mission">
+      <p style = "color: white;"> .</p>
+      
+
+        <div class = "mission_style" style=“margin-bottom:15px;">
+               Join our mission
+          </div>
+          <p class = "sub_mission">
+          You can help the environment and us by becoming a Plastic Collector Investor, allowing your investments to have a chance of growing in value whilst the world becomes cleaner.</p>
+          <div class = "komal">
+            <p> . </p>
+            
+            <p style ="color:skyblue;font-size: 30px;text-align: center;margin-bottom: 3px;">
+            Join the team</p>
+            <br>
+            <div style = "text-align: center;font-size: 25px; padding: 10px;">
+            You can become part of the solution by Starting With Yourself.</div>
+            <br><br>
+            <div style="margin-left: 90px;"><button class="button button2" onclick="location.href = '/register'" type="button"> Join Now</button></div>
+          </div>
+          <div class ="raju">
+            <p> .</p>
+             <p style ="color:white;font-size: 30px;text-align: center;margin-bottom: 3px;">
+            Become an investor</p>
+            <br>
+            <div style = "color:white;text-align: center;font-size: 25px;padding: 10px;">
+            You can Help the Environment by Becoming a Plastic Collector Investor.</div>
+            <br><br>
+            <div style="margin-left: 80px;"><button class="button button2" onclick="location.href = '#'" type="button"> Become investor</button></div>
+          </div>
+          
+          <div class ="sonu">
+            <p>.</p>
+             <p style ="color:skyblue;font-size: 30px;text-align: center;margin-bottom: 3px;">
+            Contact us</p>
+            <br>
+            <div style ="text-align:center;font-size: 25px;padding: 10px;">
+            People who collect plastic are important raw material suppliers.</div>
+            <br><br>
+            <div style="margin-left: 90px;"><button class="button button2" onclick="location.href = '/contact'" type="button"> Contact Us</button></div>
+          </div>
+          
+          {% endblock %}
+
+

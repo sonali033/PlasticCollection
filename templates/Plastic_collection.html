@@ -1,0 +1,128 @@
+{% extends "layout.html" %}
+
+ {% block body %}
+
+       <link rel="stylesheet"
+    		      type = "text/css"
+    		      href="{{ url_for('static',filename='css/plastic_collection.css') }}"
+    		      />
+
+    	<div id="show_bg_2">
+  	    <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+  	    
+		<h1><span class = "size"> We’re Aiming High </span> </h1>
+		<br>
+
+        <h2><span class = "sizee">Our Mission is to reduce Plastic Waste plaguing our Planet... </span></h2>
+        <h2><span class = "sizee">and to help some of the poorest people in the World in the process.</span></h2>
+    
+   
+
+
+	    <br>
+	    <br>
+	    <br>
+	    <br>
+	    <br><br><br><br>
+
+        
+        <p class = "paratitle"> Invest in solutions</p>
+        
+        <div class="parasize">
+        	<p>The accumulation of mismanaged plastic waste in the environment is a global growing concern. only about 9.4% of plastics (E.P.A., 2016) is presently recycled in the US mainly due to collection costs, lack of requisite infrastructure and poor demand by processors for recycled plastic granulate. </p></div>
+        	<img src = "{{ url_for('static',filename='images/para1.jpeg') }}" width="500px" align="right"style="vertical-align: right;margin:0px 50px" />
+        	<div class="parasize">
+			<p>Generally, plastics in the global ecosystem is distributed between three fractions: plastics in use, post-consumer managed plastic waste, and a mismanaged plastic waste fraction, the last of which includes urban litter. Packaging-related plastics have a particularly short in-use phase and therefore dominate municipal plastic waste and subsequently the mismanaged waste as well.</p>
+			<p>The present effort is aimed at examining the possibility of improving the granularity of country-level plastic waste generation data, using reasonable assumptions based on population density and affluence.</p>
+			<p>So better invest in solutions rather curing unexpected problems afterwards.</p>
+					
+		</div>
+		<br><br>
+
+		<div class="parasize">
+			<img src = "{{ url_for('static',filename='images/para2.jpeg') }}" width="500px" height="350px" align="left"style="vertical-align: left;margin:0px 50px" />
+		</div>
+		<div id="paratitle">Waste collectors</div>
+		<div class="subtitle">Fight against plastic waste</div>
+		<div id="parasize">
+			<p>Fight against more and more plastic waste in land fill and the seas, and at the same time act to reduce the poverty of some of the poorest in the world.</p>
+		
+			<p>With innovative concepts and the use of state-of-the-art technology, Plastic Collectors is set to change the world as we know it.</p>
+			<br>
+			<br>
+			<br>
+			<br>
+		</div>
+
+		<div class="downtitle">Plastik islands</div>
+        <div class="downsubtitle">in all the oceans of the world</div>
+        <div class="downpara">
+        	<p>The creation of Plastic Waste Islands in our oceans has been well documented for over 30 years. However, in recent times, alarming growth of the “Great Pacific Garbage Patch” has focused the attention of experts and world leaders. It is now five times the size of Germany. And there are still four further gigantic garbage islands floating in our world seas.</p>
+         <div style="text-align:center;">
+         	<video width="600" controls>
+            <source src="{{ url_for('static',filename='videos/The-Plastic-Ocean.mp4') }}" type="video/mp4">
+            </video>
+        </div>
+        <br>
+        <br>
+    </div>
+</div>
+
+        <div class="bg2">
+        	<br><br><br><br>
+        <div class = "lasttitle">OUR AMBITIOUS GOAL…</div>
+        <br>
+        <div id="downpara">
+        	<p>We’re not asking for much … just a wholesale reduction of Plastic Waste and Poverty at the same time.</p>
+        	<p>Our goal is simple … to have one billion people collecting plastic, and in turn converting their efforts into money to improve the quality of life of some of our poorest people, especially in areas where poverty and pollution from plastic waste are particularly high.</p>
+        	<button class="button button1" onclick="location.href = '/FindOutHow'" type="button"> Find out how</button>
+        </div>
+        <br><br><br><br>
+        </div>
+
+        
+
+
+        <div id="bg">
+        <!--<div class="container"> 
+			<div class="box"> 
+				<div class="box-row"> 
+					<div class="box-cell box1">
+					<div id="title"> HOW will we solve the <br> problem?</div> 
+					<ul>
+						<li>By introducing Plastic Collectors Stations throughout Hot Spots</li>
+						<br>
+						<li>By Rewarding Plastic Collectors</li><br>
+						<li>By Recycling Plastic Waste</li><br>
+						<li>By Creating Jobs in Emerging Economies</li><br></ul>
+					</div> 
+					<div class="box-cell box2">
+						<div id="title">Become part of the <br> solution!!! </div> 
+					<ul>
+						<li>Follow the 3-R rule – Reduce, Re-Use and Recycle</li>
+						<br>
+						<li>Join our community and become a part of the PLASTIC REVOLUTION</li><br>
+						<li>Exchange the plastic waste for money, everyday items or services</li><br>
+						<li>Get premiums for plastic waste above the market price</li><br></ul>
+					 
+					</div> 
+				</div> 
+			</div> 
+		</div> -->
+		<div id="title1"> HOW will we solve the <br> problem?</div> 
+		<div id="title2">Become part of the <br> solution!!! </div> 
+		<ul>
+		<li>By introducing Plastic Collectors Stations throughout Hot Spots</li><br>
+		<li>By Rewarding Plastic Collectors</li><br>
+		<li>By Recycling Plastic Waste</li><br>
+		<li>By Creating Jobs in Emerging Economies</li><br><br>
+		<div style="margin-left: 250px;"><button class="button button2" onclick="location.href = '#'" type="button"> Know more</button></div>
+        <li>Follow the 3-R rule – Reduce, Re-Use and Recycle</li><br>
+		<li>Join our community and become a part of the PLASTIC REVOLUTION</li><br>
+		<li>Exchange the plastic waste for money, everyday items or services</li><br>
+		<li>Get premiums for plastic waste above the market price</li><br>
+		<div style="margin-left: 300px;"><button class="button button2" onclick="location.href = '/register'" type="button"> sign up</button></div>
+        </ul>
+	</div>
+	{% endblock %}
+  

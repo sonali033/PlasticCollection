@@ -1,0 +1,67 @@
+{% extends "layout.html" %}
+
+
+
+ {% block body %}
+<link rel="stylesheet"
+              type = "text/css"
+              href="{{ url_for('static',filename='css/Organization.css') }}"
+              />
+
+ <div class = "Article">
+ 	  <p style="font-size: 50px;color: white;text-align: center;font-style: bold">Plastic Collectors</p>
+ 	  <p style="font-size: 40px;color: white;text-align: center;"> Leading towards change</p>
+     <p style="font-size:25px;color: white;margin-left: 150px;margin-right: 150px;">What would modern life be like without plastic?  According to The World Economic Forum, plastic production has exploded over the last half-century, growing from 16.5 million tons in 1964 to 343 million tons in 2014; it is projected to double by 2036. Where does all of it go when we’re done with it?</p>
+
+     <p style="font-size:25px;color: white;margin-left: 150px;margin-right: 150px;"  >Although the Society of Plastic Industries developed seven codes to distinguish types of plastic for recycling, in reality, only two—polyethylene terephthalate (PET, used for synthetic fibers and water bottles) and high density polyethylene (HDPE, used for jugs, bottle caps, water pipes)—are routinely recycled. But in more and more cities like New York and Chicago, low-density polyethylene (LDPE) plastic bags are now being recycled too. And increasingly, the recycling industry’s use of near‐infrared spectroscopy, which can identify the chemical composition of plastics, is improving the efficiency and speed of recycling.</p>
+
+     <p style="font-size:25px;color: white;margin-left: 150px;margin-right: 150px;">Plastics that can be recycled are first sorted, shredded and rid of impurities like paper. The shreds are then melted and formed into pellets, which can be made into other products.</p>
+ </div>
+    <div style="background-color: green">
+    	<br><br><br>
+     <p style="font-size:25px;color: white;margin-left: 150px;margin-right: 150px;">Here , we have found one interesting way to collect plastic as well as to recycle it.
+     You just need to collect plastic and collect it at our decided centers.They will verify the quality of it and reward you accordingly. Below it's given  some rewards and its cost in terms of plastic for your reference.</p>
+     
+     
+     
+     <div class="row">
+     <div class="column">
+       <img src = "{{ url_for('static',filename='images/buckets.png') }}" width="300px" height="300px" style="margin-left: 150px;margin-top: 125px;" />
+       <p style="margin-left: 220px;font-size: 20px;color: white;"> 5 kg of plastic</p>
+     </div>
+     <div class="column">
+       <img src = "{{ url_for('static',filename='images/Platic_pots.jpg') }}" width="300px" height="300px" style="margin-left: 150px;margin-top: 125px;" />
+       <p style="margin-left: 220px;font-size: 20px;color: white;"> 7 kg of plastic</p>
+     </div>
+     <div class="column">
+       <img src = "{{ url_for('static',filename='images/Dustbin.png') }}" width="300px" height="250px" style="margin-left: 150px;margin-top: 125px;" />
+       <p style="margin-left: 220px;font-size: 20px;color: white;"> 15 kg of plastic</p>
+     </div> 
+
+     </div>
+     <div class="row">
+     <div class="column">
+       <img src = "{{ url_for('static',filename='images/spoon.jpg') }}" width="300px" height="300px" style="margin-left: 150px;margin-top: 125px;" />
+       <p style="margin-left: 220px;font-size: 20px;color: white;"> 3 kg of plastic</p>
+     </div>
+     <div class="column">
+       <img src = "{{ url_for('static',filename='images/plastic-things.png') }}" width="300px" height="300px" style="margin-left: 150px;margin-top: 125px;" />
+       <p style="margin-left: 220px;font-size: 20px;color: white;"> 25 kg of plastic</p>
+     </div>
+     <div class="column">
+       <img src = "{{ url_for('static',filename='images/plastic-bags.png') }}" width="300px" style="margin-left: 150px;margin-top: 125px;" />
+       <p style="margin-left: 220px;font-size: 20px;color: white;"> 13 kg of plastic</p>
+     </div> 
+
+     </div>
+
+ </div>
+
+
+  	    
+         
+   
+
+  	    
+{% endblock %}
+  	

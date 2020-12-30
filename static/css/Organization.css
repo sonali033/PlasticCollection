@@ -1,0 +1,66 @@
+header {
+ 
+  background-color:#2E8B57;
+  padding: 30px;
+  text-align: center;
+  font-size: 35px;
+}
+a:hover{
+	color: green;
+	background: white;
+	text-decoration: none;
+}
+a{
+	color: whitesmoke;
+	text-decoration: none;
+	font-size: 35px;
+	font-family: times new roman bold;
+}
+.background{
+	background-color: rgb(0,119,145);
+}
+body{
+background-color: rgb(0,119,145);	
+}
+.Article{
+	background-color: green;
+}
+.komal {
+  float: left;
+  min-height: 270px;
+  width: 330px;
+  background-color: white;
+  display: inline-block;
+  margin-left: 250px;
+  margin-top: 50px;
+  line-height: 2em;
+  margin-bottom: 100px;
+  border-radius: 10px;
+}
+.raju {
+  float: left;
+  min-height: 270px;
+  width: 330px;
+  background-color: skyblue;
+  display: inline-block;
+  margin-left: 50px;
+  margin-top: 50px;
+  line-height: 2em;
+  margin-bottom: 100px;
+  border-radius: 10px;
+  
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.row {
+  display: flex;
+}
+
+/* Create three equal columns that sits next to each other */
+.column {
+  flex: 33.33%;
+  padding: 5px;
+}

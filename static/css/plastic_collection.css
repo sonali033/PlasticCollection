@@ -1,0 +1,422 @@
+body{
+	 
+}
+a{
+	color: whitesmoke;
+	text-decoration: none;
+	font-size: 35px;
+	font-family: times new roman bold;
+}
+.org_name{
+	color: skyblue;	
+}
+html{
+	scroll-behavior: smooth;
+}
+
+.ex1{
+	margin-top: 25px;
+}
+
+header {
+  background-color:#2E8B57;
+  padding: 30px;
+  text-align: center;
+  font-size: 35px;
+  color: white;
+}
+.size{
+	font-size: 90px;
+	color : white;
+	font-family: New Century Schoolbook, TeX Gyre Schola, serif;
+	margin-left: 150px;
+	font-weight: bold;
+}
+.sizee{
+	font-size:40px;
+	margin-left: 150px;
+	color:white;
+}
+a:hover{
+	color: green;
+	background: white;
+	text-decoration: none;
+}
+.paratitle{
+	color:skyblue;
+	font-size: 40px;
+	margin-left: 150px;
+	font-family: New Century Schoolbook, TeX Gyre Schola, serif;
+
+}
+.thing{
+	background-image: : linear-gradient(red,blue),url("Plastic_collectors/images/bg2.jpeg");
+}
+#show_bg_2 {
+    background-image:
+    linear-gradient(to bottom, rgba(255, 255, 255, 0.1), rgba(0,119,145,0.75)),
+    url('Background/bg2.jpeg');
+    background-size: 1600px 750px;
+    color: white;
+	background-color:  #007791;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+}
+.parasize{
+	color:white;
+	font-size: 25px;
+	margin-left: 150px;
+	margin-right: 600px;
+	font-family: New Century Schoolbook, TeX Gyre Schola, serif;
+
+}
+#parasize{
+	color:white;
+	font-size: 25px;
+	margin-left: 150px;
+	font-family: New Century Schoolbook, TeX Gyre Schola, serif;
+
+}
+#paratitle{
+	color:skyblue;
+	font-size: 40px;
+	margin-left: 150px;
+	font-family: New Century Schoolbook, TeX Gyre Schola, serif;
+
+}
+.subtitle{
+	color:skyblue;
+	font-size: 30px;
+	margin-left: 150px;
+	font-family: New Century Schoolbook, TeX Gyre Schola, serif;
+}
+.downtitle{
+	color:skyblue;
+	font-size: 40px;
+	text-align: center;
+	margin-right: 200px;
+	margin-left: 200px;
+	font-family: New Century Schoolbook, TeX Gyre Schola, serif;
+	}
+.downsubtitle{
+	color:skyblue;
+	font-size: 30px;
+	text-align: center;
+	margin-right: 200px;
+	margin-left: 200px;
+	font-family: New Century Schoolbook, TeX Gyre Schola, serif;
+	}
+
+.downpara{
+	color:white;
+	font-size: 25px;
+	margin-right: 200px;
+	margin-left: 200px;
+	text-align: center;
+	font-family: New Century Schoolbook, TeX Gyre Schola, serif;
+
+}
+.intro{
+	background-color: white;
+}
+.lasttitle{
+	color:orange;
+	font-size: 40px;
+	text-align: center;
+	margin-right: 200px;
+	margin-left: 230px;
+	font-family: New Century Schoolbook, TeX Gyre Schola, serif;
+
+}
+#downpara{
+	color:black;
+	font-size: 25px;
+	margin-right: 200px;
+	margin-left: 230px;
+	text-align: center;
+	font-family: New Century Schoolbook, TeX Gyre Schola, serif;
+
+}
+#example1{
+	background-image: url(Plastic_collectors/images/cleaning_2.jpg),url(images/cleaning_3.jpeg);
+	background-position:  right,left;
+	background-repeat: no-repeat,no-repeat;
+	background-width:60%,40%;
+	background-height:1000px 1000px;
+}
+.container .box { 
+				width:1200px;
+				height: 550px;  
+				display:table; 
+			} 
+			.container .box .box-row { 
+				display:table-row; 
+			} 
+			.container .box .box-cell { 
+				display:table-cell; 
+				width:50%; 
+				 
+			} 
+			.container .box .box-cell.box1 { 
+				/*background-image: linear-gradient(to bottom, rgba(0, 0, 0,0.5),rgba(255, 255, 255, 0.1)),url("cleaning_2.jpg");
+				background-repeat: no-repeat;
+				background-size: cover;*/
+				color:white; 
+				text-align:right;
+				background-position: top right;
+				padding: 20px; 
+			} 
+			.container .box .box-cell.box2 { 
+				/*background-image:linear-gradient(to bottom, rgba(0, 0, 0,0.5),rgba(255, 255, 255, 0.1)),url("cleaning_3.jpeg") ; */
+				text-align:left
+				
+			} 
+
+#title1{
+	font-family: New Century Schoolbook bold, TeX Gyre Schola, serif;
+	font-weight: bold;
+	color:white;
+	font-size: 35px;
+	text-align: center;
+	margin-right: 250px;
+	margin-left: 175px;
+	float: left;
+}
+#title2{
+	font-family: New Century Schoolbook bold, TeX Gyre Schola, serif;
+	font-weight: bold;
+	color:white;
+	font-size: 35px;
+	text-align: center;
+	margin-left: 500px;
+
+}
+/*ul{
+	font-size: 25px;
+	color: white;
+	float: left;
+}*/
+ul{
+	font-size: 25px;
+	font-family: New Century Schoolbook bold, TeX Gyre Schola, serif;
+	font-weight: bold;
+	color: white;
+    list-style-type: disc;
+    -webkit-columns: 2;
+    -moz-columns: 2;
+    columns: 2;
+    list-style-position: inside;//this is important addition
+}
+#bg{
+	background-image: linear-gradient(to bottom, rgba(0, 0, 0,0.75),rgba(255, 255, 255, 0.1)),url("Background/last_bg1.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+
+}
+.bg2{
+	background-color: white;
+}
+footer {
+  background-color:black;
+  padding: 30px;
+  text-align: center;
+  font-size: 25px;
+  color:white;
+  }
+  #left{
+  	text-align: left;
+  	margin-right: 500px;
+  	color:white;
+  	float: left;
+  }
+  #Right{
+  	text-align: right;
+  	margin-left: 700px;
+  	color:white;
+  }
+
+  .fa {
+  padding: 20px;
+  font-size: 20px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+.fa-google {
+  background: #dd4b39;
+  color: white;
+}
+
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
+
+.fa-youtube {
+  background: #bb0000;
+  color: white;
+}
+
+.fa-instagram {
+  background: #125688;
+  color: white;
+}
+
+.fa-pinterest {
+  background: #cb2027;
+  color: white;
+}
+
+.fa-snapchat-ghost {
+  background: #fffc00;
+  color: white;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+.fa-skype {
+  background: #00aff0;
+  color: white;
+}
+
+.fa-android {
+  background: #a4c639;
+  color: white;
+}
+
+.fa-dribbble {
+  background: #ea4c89;
+  color: white;
+}
+
+.fa-vimeo {
+  background: #45bbff;
+  color: white;
+}
+
+.fa-tumblr {
+  background: #2c4762;
+  color: white;
+}
+
+.fa-vine {
+  background: #00b489;
+  color: white;
+}
+
+.fa-foursquare {
+  background: #45bbff;
+  color: white;
+}
+
+.fa-stumbleupon {
+  background: #eb4924;
+  color: white;
+}
+
+.fa-flickr {
+  background: #f40083;
+  color: white;
+}
+
+.fa-yahoo {
+  background: #430297;
+  color: white;
+}
+
+.fa-soundcloud {
+  background: #ff5500;
+  color: white;
+}
+
+.fa-reddit {
+  background: #ff5700;
+  color: white;
+}
+
+.fa-rss {
+  background: #ff6600;
+  color: white;
+}
+.button {
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+.button1 {background-color: orange;border-radius: 15px;} /* Green */
+.button2 {background-color: #007791;border-radius: 12px;} /* Blue */
+
+.overlay {
+  height: 0%;
+  width: 100%;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: rgb(0,0,0);
+  background-color: rgba(0,0,0, 0.9);
+  overflow-y: hidden;
+  transition: 0.5s;
+}
+
+.overlay-content {
+  position: relative;
+  top: 25%;
+  width: 100%;
+  text-align: center;
+  margin-top: 30px;
+}
+
+.overlay a {
+  padding: 8px;
+  text-decoration: none;
+  font-size: 36px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+
+.overlay a:hover, .overlay a:focus {
+  
+}
+
+.overlay .closebtn {
+  position: absolute;
+  top: 20px;
+  right: 45px;
+  font-size: 60px;
+}
+
+@media screen and (max-height: 450px) {
+  .overlay {overflow-y: auto;}
+  .overlay a {font-size: 20px}
+  .overlay .closebtn {
+  font-size: 40px;
+  top: 15px;
+  right: 35px;
+  }
+}
+  
+ 

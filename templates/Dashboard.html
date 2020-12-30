@@ -1,0 +1,52 @@
+
+{% extends "Final.html" %}
+{% block body %}
+
+<h1> Dashboard <small>Welcome {{session.username}} </small></h1>
+
+<div class="s01">
+      <form action = "/dashboard" method="POST" id="formNew">
+        <fieldset>
+          <legend>Enter the name of City</legend>
+        </fieldset>
+        <div class="inner-form">
+          <div class="input-field first-wrap">
+            <input id="search" type="text" name="City" placeholder="City" >
+          </div>
+          
+          <div class="input-field third-wrap">
+              <!--<button class="btn-search" type="button">Search</button>-->
+              <input type="submit" name="signin" id="signin" value = "Search" class="form-submit"/>
+          </div>
+        </div>
+      </form>
+      </div>
+
+      <div id="Table_data">
+      <table class="table table-striped">
+
+    <tr>
+      <th>Name</th>
+      <th>City</th>
+      <th>Address</th>
+      <th>Contact Number</th>
+      <th>Owner name</th>
+      <th></th>
+      <th></th>
+    </tr>
+    {% for article in articles %}
+      <tr>
+        <td>{{article.Name}}</td>
+        <td>{{article.City}}</td>
+        <td>{{article.Address}}</td>
+        <td>{{article.Contact}}</td>
+        <td>{{article.Owner_name}}</td>
+        </tr>
+   {% endfor %}
+      </table>
+      </div>
+    
+
+{% endblock %}
+
+

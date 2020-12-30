@@ -1,0 +1,107 @@
+<html>
+<head>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="{{ url_for('static',filename='js/jquery.js') }}"></script>
+	<script type="text/javascript">
+	$(document).ready(function() { 
+		$("img.source-image").hide();
+		var $source = $("img.source-image").attr("src");
+		$('#page-body').css({
+			'backgroundImage': 'url(' + $source +')',
+			'backgroundRepeat': 'no-repeat',
+			'backgroundPosition': 'top center'
+		});
+	}); 
+	</script>
+    	<link rel="stylesheet"
+    		      type = "text/css"
+    		      href="{{ url_for('static',filename='css//bootstrap.css') }}"
+    		      />
+        <link rel="stylesheet"
+    		      type = "text/css"
+    		      href="{{ url_for('static',filename='css/layout.css') }}"
+    		      />
+        <link rel="stylesheet"
+    		      type = "text/css"
+    		      href="{{ url_for('static',filename='css/plastic_collection.css') }}"
+    		      />
+    </head>
+	<body>
+		<script>
+		function openNav() {
+		  document.getElementById("myNav").style.height = "100%";
+		}
+
+		function closeNav() {
+		  document.getElementById("myNav").style.height = "0%";
+		}
+		</script>
+		
+      
+        <header>
+		<a href = "/">
+			Home
+  		</a>
+  	    &nbsp;
+  	    <a href = "/Aboutus">
+  		   About Us
+  	    </a>
+  	    &nbsp;
+  	    <a href = "/FindOutHow">
+  		   Find out how
+  	    </a>
+  	    &nbsp;
+  	    <div id="myNav" class="overlay">
+		  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+		  <div class="overlay-content">
+		  	 {% if session.logged_in %}
+              <a href="/dashboard">Dashboard</a>
+              <a href="/logout">Logout</a>
+              <a href="/contact">Contact us</a>
+            {% else %}
+              <a href="/register">Register</a>
+              <a href="/Login">Login</a>
+              <a href="/contact">Contact us</a>
+            {% endif %}
+		    
+		  </div>
+		</div>
+		
+        <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776;</span>
+  	    </header>
+
+  	    
+  	    {% block body %} {% endblock %}
+
+
+
+  	    <footer>
+		<br><br>
+		<div id="left">
+		Follow us
+		<br>
+		<a href="{{params['fb_url']}}" target = "_blank" class="fa fa-facebook"></a>
+		<a href="{{params['tw_url']}}" target = "_blank" class="fa fa-twitter"></a>
+		<a href="{{params['linked_in_url']}}" target = "_blank" class="fa fa-linkedin"></a>
+		<a href="{{params['yt_url']}}" target = "_blank" class="fa fa-youtube"></a>
+		<a href="#" class="fa fa-instagram"></a>
+		<a href="#" class="fa fa-pinterest"></a>
+        </div>
+        
+         <br><br>
+        <div id="Right">
+		For any quries contact us at:
+		 sonalijagtap033@gmail.com</div>
+
+		 <br><br>
+
+
+
+
+	    </footer>
+		
+	    </body>
+</html>

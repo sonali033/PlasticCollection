@@ -1,0 +1,20 @@
+{
+  "params":
+  {
+    "local_server": "True",
+    "local_uri": "mysql://root:@localhost/plasticcollection",
+    "prod_uri": "mysql://PlasticCollectio:Sagar@123@PlasticCollection.mysql.pythonanywhere-services.com/PlasticCollectio$PlasticCollection",
+    "fb_url": "https://facebook.com/Plasticcollector",
+    "tw_url": "https://twitter.com/Plasticcollector",
+    "yt_url": "https://youtube.com/Plasticcollector",
+    "linked_in_url": "https://linkedin/Plasticcollector",
+    "gmail_user": "deshmanes361@gmail.com",
+    "gmail_password": "Sonali@199"
+
+
+  }
+
+
+
+
+}
